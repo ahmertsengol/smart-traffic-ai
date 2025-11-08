@@ -1,4 +1,4 @@
-# 🚦 Smart Traffic AI
+# Smart Traffic AI
 
 ![Project Status](https://img.shields.io/badge/status-in%20development-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -6,43 +6,43 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-latest-blue)
 
-## 🎯 Proje Hakkında
+## About the Project
 
-Smart Traffic AI, yapay zeka ve gerçek zamanlı veri analizi kullanarak trafik akışını optimize etmeyi amaçlayan yenilikçi bir projedir. Sistem, çeşitli veri kaynaklarını kullanarak trafik yoğunluğunu tahmin eder ve sürücülere optimum rotalar önerir.
+Smart Traffic AI is an innovative project that aims to optimize traffic flow using artificial intelligence and real-time data analysis. The system predicts traffic density using various data sources and recommends optimal routes to drivers.
 
-### 🌟 Temel Özellikler
+### Key Features
 
-| Özellik | Açıklama |
+| Feature | Description |
 |---------|-----------|
-| 📊 Gerçek Zamanlı Analiz | OpenStreetMap ve HERE Maps API entegrasyonu ile anlık trafik verisi |
-| 🤖 AI Tahminleri | TensorFlow Lite tabanlı trafik yoğunluğu tahminleri |
-| 🗺️ İnteraktif Harita | Kullanıcı dostu harita arayüzü ve rota görselleştirme |
-| 🌤️ Hava Durumu Entegrasyonu | OpenWeatherMap ile hava koşulları analizi |
-| 📱 Mobil Uyumluluk | Responsive tasarım ile her cihazda kusursuz deneyim |
+| Real-Time Analysis | Instant traffic data via OpenStreetMap and HERE Maps API integration |
+| AI Predictions | Traffic density predictions based on TensorFlow Lite |
+| Interactive Map | User-friendly map interface and route visualization |
+| Weather Integration | Weather analysis with OpenWeatherMap |
+| Mobile Compatibility | Seamless experience on any device with responsive design |
 
-## 💻 Teknolojiler
+## Technologies
 
-### Backend Teknolojileri
+### Backend Technologies
 ```python
 {
-    "ana_framework": "FastAPI",
-    "veritabanı": "PostgreSQL",
-    "cache": "Redis",
-    "AI/ML": ["TensorFlow Lite", "Scikit-learn"]
+    “main_framework”: “FastAPI”,
+    “database”: “PostgreSQL”,
+    “cache”: “Redis”,
+    “AI/ML”: [“TensorFlow Lite”, “Scikit-learn”]
 }
 ```
 
-### Frontend Teknolojileri
+### Frontend Technologies
 ```javascript
 {
-    "framework": "Next.js",
-    "harita": "OpenStreetMap + Leaflet",
-    "UI": "TailwindCSS",
-    "state": "React Query"
+    “framework”: “Next.js”,
+    “map”: “OpenStreetMap + Leaflet”,
+    “UI”: “TailwindCSS”,
+    “state”: “React Query”
 }
 ```
 
-### Harici Servisler
+### External Services
 ```mermaid
 graph LR
     A[Smart Traffic AI] --> B[OpenStreetMap]
